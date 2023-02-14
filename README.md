@@ -8,5 +8,22 @@ This repository is for develop of project yomakase front end
 
 # 사용 기술
 
-- React.js
-- Styled-component
+## UI 라이브러리/프레임워크
+
+- React
+
+## 언어
+
+- JavaScript
+
+## 상태관리
+
+- Redux
+
+## Style
+
+- scss
+
+## 라우팅
+
+- React Router V6
