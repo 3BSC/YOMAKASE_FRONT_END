@@ -1,6 +1,7 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 
 const Login = () => {
+  const [isCeoLogin, setCeoLogin] = useState(false);
   const userEmail = useRef();
   const userPassword = useRef();
   const handleSubmit = (e) => {
@@ -11,6 +12,15 @@ const Login = () => {
       alert("아이디, 비밀번호를 모두 입력해 주세요");
       return;
     }
+    login(email, password);
+  };
+  const login = (email, password) => {
+    if (isCeoLogin) {
+      alert("사장님 로그인" + email + password);
+      return;
+    }
+    alert("일반 로그인", email, password);
+    return;
   };
   return (
     <>
@@ -26,7 +36,11 @@ const Login = () => {
           <input type="password" ref={userPassword}></input>
         </div>
         <div>
-          <input type="checkbox" id="user-type"></input>
+          <input
+            type="checkbox"
+            id="user-type"
+            onClick={() => setCeoLogin(!isCeoLogin)}
+          ></input>
           <label htmlFor="user-type">사장님 계정</label>
           <input type="checkbox" id="auto-login"></input>
           <label htmlFor="auto-login">자동 로그인</label>
