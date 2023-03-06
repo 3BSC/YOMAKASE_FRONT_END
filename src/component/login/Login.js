@@ -5,7 +5,6 @@ const Login = () => {
   const userEmail = useRef();
   const userPassword = useRef();
   const handleSubmit = (e) => {
-    e.preventDefault();
     const email = userEmail.current.value;
     const password = userPassword.current.value;
     if (email.length === 0 || password.length === 0) {
@@ -59,8 +58,8 @@ const Login = () => {
           <button type="submit" className="Loginbutton">
             로그인
           </button>
-          <button className="Loginbutton">회원가입</button>
-          <button className="Loginbutton">이메일/비밀번호 찾기</button>
+          <div className="Loginbutton">회원가입</div>
+          <div className="Loginbutton">이메일/비밀번호 찾기</div>
         </div>
       </form>
     </div>

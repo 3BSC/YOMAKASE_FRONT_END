@@ -13,6 +13,7 @@
 }
 .LoginInput {
   width: 100%;
+  height: 27px;
   margin: 0 auto;
   border: none;
   background: #fff8f8;
@@ -23,12 +24,16 @@
   display: block;
   width: 65%;
   margin: 0 auto;
+  margin-top: 22px;
 }
 .Loginbutton {
   width: 100%;
   height: 27px;
-  margin: 3px auto;
+  margin: 9px auto;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  font-size: 16px;
   border: none;
   color: #ffffff;
   background: #ff6666;
@@ -37,5 +42,7 @@
 }
 .LoginOption {
   width: 65%;
+  display: flex;
+  justify-content: right;
   margin: 0 auto;
 }
