@@ -1,8 +1,11 @@
 #logo {
-  width: 40%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
+  margin-bottom: 18px;
 }
-
 #titleWrapper {
   width: 50%;
   margin: 0 auto;

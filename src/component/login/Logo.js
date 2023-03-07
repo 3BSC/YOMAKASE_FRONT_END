@@ -4,7 +4,7 @@ const Logo = () => {
   return (
     <>
       <figure id="logo">
-        <img src="/images/logo.png" alt="logo" />
+        <img src="/images/logo.png" alt="logo" id="logoImage" />
       </figure>
       <div id="titleWrapper">
         <span id="title">요마카세</span>
