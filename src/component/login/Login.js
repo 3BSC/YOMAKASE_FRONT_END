@@ -21,6 +21,13 @@ const Login = () => {
     alert("일반 로그인", email, password);
     return;
   };
+  const setVisible = () => {
+    if (userPassword.current.type === "text") {
+      userPassword.current.type = "password";
+      return;
+    }
+    userPassword.current.type = "text";
+  };
   return (
     <div className="Container">
       <form onSubmit={handleSubmit} className="LoginContents">
@@ -42,6 +49,9 @@ const Login = () => {
             ref={userPassword}
             className="LoginInput"
           ></input>
+          <div id="hideBtn" onClick={setVisible}>
+            <img src="/images/hide.svg" alt="hidebtn" />
+          </div>
         </div>
         <div className="LoginOption">
           <input
