@@ -17,7 +17,7 @@ export default function NormalRegister() {
           <span>휴대전화</span>
           <span className={styles.required}>*</span>
         </div>
-        <input className={styles.input} type="number" />
+        <input className={styles.input} />
       </div>
     </section>
   );

@@ -1,10 +1,12 @@
 .wrapper {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 10px;
   width: 238px;
+  height: 800px;
   margin: 0 auto;
-  margin-top: 120px;
+
   .input {
     width: calc(100% - 20px);
     border: none;
