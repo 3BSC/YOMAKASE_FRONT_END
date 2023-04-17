@@ -5,8 +5,9 @@
   gap: 10px;
   width: 238px;
   margin: 0 auto;
-
-  .input {
+}
+.form {
+  &__input {
     width: calc(100% - 20px);
     border: none;
     padding: 5px 10px;
@@ -17,7 +18,7 @@
   span {
     font-weight: 600;
   }
-  .required {
+  &__required {
     color: #e00000;
   }
 }
