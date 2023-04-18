@@ -2,6 +2,7 @@ import React from 'react';
 import NormalRegister from '../NornalRegisterPage';
 import styles from './OwnerRegister.module.scss';
 import FileInput from '../../../component/Register/OwnerRegister/FileInput';
+import PriceInput from '../../../component/Register/OwnerRegister/PriceInput';
 
 export default function OwnerRegister() {
   return (
@@ -22,6 +23,7 @@ export default function OwnerRegister() {
         <input className={styles.form__input} />
       </div>
       <FileInput />
+      <PriceInput />
     </div>
   );
 }
