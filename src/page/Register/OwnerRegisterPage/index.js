@@ -5,6 +5,7 @@ import FileInput from '../../../component/Register/OwnerRegister/FileInput';
 import PriceInput from '../../../component/Register/OwnerRegister/PriceInput';
 import AddressInput from '../../../component/Register/OwnerRegister/AddressInput';
 import TimeImput from '../../../component/Register/OwnerRegister/Timeinput';
+import FacilitySelect from '../../../component/Register/OwnerRegister/FacilitySelect';
 
 export default function OwnerRegister() {
   return (
@@ -28,6 +29,7 @@ export default function OwnerRegister() {
       <AddressInput />
       <PriceInput />
       <TimeImput />
+      <FacilitySelect />
     </div>
   );
 }
