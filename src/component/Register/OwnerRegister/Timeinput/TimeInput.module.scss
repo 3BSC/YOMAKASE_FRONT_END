@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  &__input--time {
+    display: block;
+    width: calc(40% - 20px);
+    border: none;
+    padding: 5px 10px;
+    background: #fff8f8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+  }
+  &__input--day {
+    display: block;
+    width: calc(100% - 20px);
+    border: none;
+    padding: 5px 10px;
+    background: #fff8f8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+  }
+  &__label {
+    font-weight: 600;
+  }
+  &__time--input {
+    display: flex;
+    font-size: 25px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

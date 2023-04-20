@@ -4,6 +4,7 @@ import styles from './OwnerRegister.module.scss';
 import FileInput from '../../../component/Register/OwnerRegister/FileInput';
 import PriceInput from '../../../component/Register/OwnerRegister/PriceInput';
 import AddressInput from '../../../component/Register/OwnerRegister/AddressInput';
+import TimeImput from '../../../component/Register/OwnerRegister/Timeinput';
 
 export default function OwnerRegister() {
   return (
@@ -26,6 +27,7 @@ export default function OwnerRegister() {
       <FileInput />
       <AddressInput />
       <PriceInput />
+      <TimeImput />
     </div>
   );
 }
