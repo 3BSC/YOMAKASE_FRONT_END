@@ -18,7 +18,6 @@ export default function PriceInput() {
   return (
     <div className={styles.form}>
       <span>가격</span>
-      <span className={styles.form__required}>*</span>
       <div className={styles['price--table']}>
         {DUMMY.map((data) => (
           <div className={styles['price--table__set']} key={data.index}>

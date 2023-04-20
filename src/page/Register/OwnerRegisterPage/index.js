@@ -30,6 +30,12 @@ export default function OwnerRegister() {
       <PriceInput />
       <TimeImput />
       <FacilitySelect />
+      <div>
+        <div className={styles.form}>
+          <span>소개</span>
+        </div>
+        <textarea className={styles.form__textarea} />
+      </div>
     </div>
   );
 }
