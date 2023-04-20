@@ -1,5 +1,5 @@
 import React from 'react';
-import NormalRegister from '../NornalRegisterPage';
+import NormalRegister from '../NornalRegisterForm';
 import styles from './OwnerRegister.module.scss';
 import FileInput from '../../../component/Register/OwnerRegister/FileInput';
 import PriceInput from '../../../component/Register/OwnerRegister/PriceInput';
@@ -36,6 +36,7 @@ export default function OwnerRegister() {
         </div>
         <textarea className={styles.form__textarea} />
       </div>
+      <button type="button" className={styles.form__submit}>회원가입</button>
     </div>
   );
 }

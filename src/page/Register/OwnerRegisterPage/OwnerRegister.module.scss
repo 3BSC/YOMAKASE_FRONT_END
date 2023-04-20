@@ -31,4 +31,17 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
   }
+  &__submit {
+    height: 38px;
+    left: 61px;
+    top: 705px;
+    border: none;
+    background: #ff6666;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+  }
 }
